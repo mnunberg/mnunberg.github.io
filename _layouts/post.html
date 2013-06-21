@@ -1,0 +1,14 @@
+---
+layout: site
+---
+
+<div class="post">
+    <h1><a href="{{site.url}}{{page.url}}">{{page.title}}</a></h1>
+    {{content}}
+</div>
+
+{% if page.target %}
+<p>
+    Read original article here: <a href="{{page.target}}">{{page.target}}</a>
+</p>
+{% endif %}
