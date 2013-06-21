@@ -2,3 +2,6 @@ lsi: false
 safe: true
 pygments: true
 permalink: '/:categories/:year/:title'
+markdown: rdiscount
+rdiscount:
+    extensions: [smart, autolink]
