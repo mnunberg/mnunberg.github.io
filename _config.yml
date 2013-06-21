@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-url: http://mnunberg.github.io
+url: 'http://mnunberg.github.io'
 pygments: true
 permalink: '/:categories/:year/:title'
 markdown: rdiscount
